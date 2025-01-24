@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI)
     .catch(err => console.log(err));
 
 app.use(cors({
-    orgin:"https://task-management14.netlify.app",
+    orgin:"https://task-management-frontend-eight-rosy.vercel.app",
     credentials:true,
 }));
 app.use(express.json());
